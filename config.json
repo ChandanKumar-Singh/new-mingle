@@ -1,0 +1,42 @@
+{
+    "conditions": [],
+    "parameters": {
+        "m_baseUrl": {
+            "defaultValue": {
+                "value": "http://192.168.29.226:3000/v1/"
+            },
+            "description": "This is base URL of the API server",
+            "valueType": "STRING"
+        },
+        "o_baseUrl": {
+            "defaultValue": {
+                "value": "http://192.168.1.40/:3000/v1/"
+            },
+            "description": "This is base URL of the API server",
+            "valueType": "STRING"
+        }
+    },
+    "parameterGroups": {
+        "AppSettings": {
+            "parameters": {
+                "baseUrl": {
+                    "defaultValue": {
+                        "value": "http://192.168.1.40:3000/v1/"
+                    },
+                    "description": "This is base URL of the API server",
+                    "valueType": "STRING"
+                }
+            }
+        }
+    },
+    "etag": "etag-452317431724-9",
+    "version": {
+        "versionNumber": "9",
+        "updateOrigin": "CONSOLE",
+        "updateType": "INCREMENTAL_UPDATE",
+        "updateUser": {
+            "email": "codingmobile2023@gmail.com"
+        },
+        "updateTime": "Wed, 20 Mar 2024 04:57:36 GMT"
+    }
+}
